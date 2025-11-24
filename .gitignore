@@ -1,0 +1,35 @@
+# Ignore enhancer dataset directory
+human_enhancers_ensembl/
+dna2vec/
+
+# Ignore Python cache & build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+
+# Ignore DNA2Vec pretrained model weights (large files)
+dna2vec/pretrained/*.w2v
+
+# Ignore model checkpoints and logs
+checkpoints/
+runs/
+*.pt
+*.pth
+
+# Ignore notebooks’ checkpoint folders
+.ipynb_checkpoints/
+
