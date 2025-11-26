@@ -27,8 +27,6 @@ dna2vec/pretrained/*.w2v
 # Ignore model checkpoints and logs
 checkpoints/
 runs/
-*.pt
-*.pth
 
 # Ignore notebooks’ checkpoint folders
 .ipynb_checkpoints/
